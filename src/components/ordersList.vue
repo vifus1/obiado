@@ -63,7 +63,6 @@
 </template>
 
 <script>
-import { useStore } from "vuex";
 import { ref } from "vue";
 import data from "../data/orders.json";
 
@@ -71,8 +70,6 @@ export default {
   name: "ordersList",
   components: {},
   setup() {
-    const store = useStore();
-    store.dispatch("getUsersData");
     const ordersData = data;
     let searchValue = ref("");
     let rowsPerPage = ref(3);
