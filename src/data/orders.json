@@ -1,0 +1,76 @@
+{
+    "orders": [
+        {
+            "id": 1,
+            "date": "23.05.2024",
+            "user": {
+                "id": 1,
+                "email": "test@wp.pl",
+                "firstname": "Jan",
+                "lastname": "Kowalski"
+            },
+            "status": 1,
+            "brutto": 55
+        },
+        {
+            "id": 2,
+            "date": "25.05.2024",
+            "user": {
+                "id": 2,
+                "email": "darek@wp.pl",
+                "firstname": "Darek",
+                "lastname": "Kwiatkowski"
+            },
+            "status": 2,
+            "brutto": 35
+        },
+        {
+            "id": 3,
+            "date": "11.05.2024",
+            "user": {
+                "id": 3,
+                "email": "Marek@wp.pl",
+                "firstname": "Marek",
+                "lastname": "Mostowiak"
+            },
+            "status": 0,
+            "brutto": 21
+        },
+        {
+            "id": 4,
+            "date": "25.05.2024",
+            "user": {
+                "id": 4,
+                "email": "seb@wp.pl",
+                "firstname": "Sebastian",
+                "lastname": "Kalinowski"
+            },
+            "status": 1,
+            "brutto": 135
+        },
+        {
+            "id": 5,
+            "date": "21.03.2024",
+            "user": {
+                "id": 5,
+                "email": "jarek@wp.pl",
+                "firstname": "Jarosław",
+                "lastname": "Wolski"
+            },
+            "status": 2,
+            "brutto": 35
+        },
+        {
+            "id": 6,
+            "date": "25.05.2023",
+            "user": {
+                "id": 6,
+                "email": "arek@wp.pl",
+                "firstname": "Arkadiusz",
+                "lastname": "Balon"
+            },
+            "status": 2,
+            "brutto": 1135
+        }
+    ] 
+}
